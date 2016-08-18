@@ -41,3 +41,22 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+/UpgradeLog.htm
+/udpTest/udpTest.vcxproj.filters
+/udpTest/udpTest.vcxproj
+/udpTest/Debug/udpTest.log
+/test/test.vcxproj.filters
+/test/test.vcxproj
+/test/Debug/test.log
+/ipch/piggyiocpserver-a32571ac/piggyiocpserver-7e1b44ce.ipch
+/IOCPserver.VC.db
+/IOCPserver.v12.suo
+/IOCPserver.sln
+/IOCPserver.sdf
+/IOCPserver/IOCPserver.vcxproj.filters
+/IOCPserver/IOCPserver.vcxproj
+/IOCPserver/Debug/IOCPserver.log
+/IOCPModel/IOCPModel.vcxproj.filters
+/IOCPModel/IOCPModel.vcxproj
+/.vs/IOCPserver/v14/.suo
