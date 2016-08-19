@@ -33,7 +33,14 @@ int main(void) {
 
 	while (ch != 'N' && ch != 'n') {
 		char * sendData = "hello server!\n";
-		sendto(sclient, sendData, strlen(sendData), 0, (sockaddr *)&sin, len);
+		
+		WSABUF buf;
+		buf.buf = sendData;
+		buf.len = strlen(sendData);
+		DWORD count = strlen(sendData);
+
+		//sendto(sclient, sendData, strlen(sendData), 0, (sockaddr *)&sin, len);
+		WSASendTo(sclient, &buf, 1, &count, 0, (sockaddr *)&sin, sizeof(sockaddr), NULL, NULL);
 		puts("continue?y/n:");
 
 		scanf("%c", &ch);
